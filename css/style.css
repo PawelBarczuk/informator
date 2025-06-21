@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'lucy';
+    src: url(../fonts/lucy.ttf);
+}
+
+@font-face {
+    font-family: 'Mirage thin';
+    src: url(../fonts/Mirage-Thin.otf);
+}
+
+@font-face {
+    font-family: 'Mirage medium';
+    src: url(../fonts/Mirage-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Mirage regular';
+    src: url(../fonts/Mirage-Regular.otf);
+}
+
+
+body {
+    background-color: #EFEEEC;
+    font-size: 25px;
+    font-family: 'Mirage regular';
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    line-height: 130%;
+}
+
+section {
+    padding: 10px;
+}
+
+section:nth-child(even) {
+    background-color: #7C303C;
+    color: white;
+}
+
+section:nth-child(even) ul {
+    border-color: white;
+}
+
+section:nth-child(even) svg {
+    border-color: white;
+}
+
+section:nth-child(odd) {
+    color: #7C303C;
+}
+
+.map .kwiat{
+    max-width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'lucy';
+    line-height: 120%;
+}
+
+p {
+    max-width: 1024px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 14px;
+}
+
+p a {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    max-width: 1024px;
+    margin: auto;
+    border-left: 2px solid #7C303C;
+    text-align: left;
+    padding: 10px 0;
+}
+
+li {
+    padding: 5px 10px;
+}
