@@ -21,7 +21,7 @@
 
 body {
     background-color: #EFEEEC;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Mirage regular';
 }
 
@@ -52,13 +52,13 @@ section:nth-child(odd) {
     color: #7C303C;
 }
 
-.map .kwiat{
-    max-width: 100%;
+.map, .kwiat{
+    max-width: 240px;
     margin: auto;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'lucy';
     line-height: 120%;
 }
