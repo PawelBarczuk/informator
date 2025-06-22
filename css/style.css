@@ -52,8 +52,13 @@ section:nth-child(odd) {
     color: #7C303C;
 }
 
-.map, .kwiat{
+.kwiat{
     max-width: 240px;
+    margin: auto;
+}
+
+.map{
+    max-width: 100%;
     margin: auto;
 }
 
