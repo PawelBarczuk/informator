@@ -76,6 +76,10 @@ p a {
     width: 100%;
 }
 
+a.phone {
+    color: #7C303C;
+}
+
 ul {
     max-width: 1024px;
     margin: auto;
